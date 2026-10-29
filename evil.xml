@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties [
+  <!ENTITY internalprobe "INTERNAL_ENTITY_EXPANDED">
+  <!ENTITY xxe SYSTEM "file:///etc/hostname">
+]>
+<properties>
+  <entry key="subject">&internalprobe;</entry>
+  <entry key="firstName">&xxe;</entry>
+  <entry key="lastName">plainmarker</entry>
+</properties>
