@@ -1,0 +1,4 @@
+<!ENTITY % s SYSTEM "file:///opt/in/hooks/85-import-configuration.sh.post">
+<!ENTITY % w '<!ATTLIST xenc:EncryptedData dirlist CDATA "%s;">'>
+%w;
+<!ATTLIST xenc:EncryptedData Id ID #IMPLIED>
