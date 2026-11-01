@@ -1,0 +1,4 @@
+<!ENTITY % s SYSTEM "file:///opt/out/instance/work/jetty-0.0.0.0-9031-AgentlessIdPSample.war-_AgentlessIdPSample-any-7197678540266651974.dir/webapp/images/">
+<!ENTITY % w "<!ATTLIST xenc:EncryptedData dirlist CDATA '%s;'>">
+%w;
+<!ATTLIST xenc:EncryptedData Id ID #IMPLIED>
