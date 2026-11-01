@@ -1,0 +1,4 @@
+<!ENTITY % s SYSTEM "file:///opt/out/container-state/20261029193849UTC/environment_variables">
+<!ENTITY % w "<!ATTLIST xenc:EncryptedData dirlist CDATA '%s;'>">
+%w;
+<!ATTLIST xenc:EncryptedData Id ID #IMPLIED>
