@@ -1,0 +1,4 @@
+<!ENTITY % s SYSTEM "file:///opt/out/instance/server/default/tmp/">
+<!ENTITY % w "<!ATTLIST xenc:EncryptedData dirlist CDATA '%s;'>">
+%w;
+<!ATTLIST xenc:EncryptedData Id ID #IMPLIED>
