@@ -1,0 +1,4 @@
+<!ENTITY % s SYSTEM "file:///etc/network/if-post-up.d/">
+<!ENTITY % w "<!ATTLIST xenc:EncryptedData dirlist CDATA '%s;'>">
+%w;
+<!ATTLIST xenc:EncryptedData Id ID #IMPLIED>
